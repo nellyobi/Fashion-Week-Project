@@ -1,0 +1,85 @@
+
+body {
+    background: radial-gradient(329px at 3.1% 9.3%, rgb(251, 204, 235) 28.1%, rgba(221, 221, 221, 0.15) 100.7%);
+
+}
+h1 {
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    line-height: 20px;
+}
+img {
+    max-width: 120px;
+    margin: 10px;
+}
+button {
+    font-size: 10px;
+    background: black;
+    color: white;
+    padding: 5 8px; 
+
+}
+button:hover {
+    color: black;
+    background: white;
+
+}
+
+.container {
+    max-width: 600px ;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.theme-button{
+    font-size: 10px;
+    background: black;
+    color: white;
+    padding: 5 8px; 
+}
+.theme-button:hover {
+    color: black;
+    background: white;
+}
+.first {
+    max-width: 500px;
+    position: center;
+    margin: 50px;
+    border-radius: 10px;
+    transition: opacity 150ms ease-in-out;
+}
+
+.first:hover {
+    filter: contrast(80%);
+    transform: scale(1.1);
+}
+.weeks:hover {
+    filter: contrast(80%);
+    transform: scale(1.1);
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+    margin: 15px 0;
+}
+.grid img {
+    width: 100%;
+    border-radius: 8px;
+
+}
+.dark {
+    background: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);
+    color: white;
+}
+.dark .container {
+    background: rgb(255, 255, 255, 0.1);
+}
+.dark a {
+    color: plum;
+}
